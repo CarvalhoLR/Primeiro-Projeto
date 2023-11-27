@@ -1,0 +1,222 @@
+/* Fonte */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Code+Pro:wght@200;300;400&display=swap");
+/* Componentes */
+/* Reset Css */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 300;
+  vertical-align: baseline;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-image: url(../images/bolha-background.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.container {
+  width: 1024px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+header section {
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  margin: 0 15px;
+  color: #3399cc;
+}
+
+.sobre-web-design {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sobre-web-design article {
+  width: 250px;
+}
+
+.sobre-web-design article h1 {
+  font-size: 70px;
+  line-height: 90%;
+  font-weight: 400;
+  color: #333366;
+}
+
+.sobre-web-design article h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 200%;
+  color: #3399cc;
+}
+
+.sobre-web-design article p {
+  color: #3399cc;
+  margin: 10px 0 40px 0;
+}
+
+.sobre-web-design figcaption {
+  width: 700px;
+}
+
+.btn {
+  padding: 5px 30px;
+  border-radius: 20px;
+}
+
+.btn.bnt-laranja {
+  background: #ff9470;
+  color: black;
+  font-weight: bold;
+}
+
+header section nav ul li a {
+  transition: 0.4s;
+}
+
+.btn.bnt-laranja:hover {
+  background: #73d8dc;
+  font-weight: bold;
+}
+
+header section nav ul li a:hover {
+  padding: 5px 30px;
+  border-radius: 20px;
+  font-weight: bold;
+  background: #73d8dc;
+  color: white;
+}
+
+footer ul li {
+  margin: 0 30px 0 0;
+}
+footer ul a img {
+  width: 30px;
+}
+
+@media (max-width: 2000px) {
+  body {
+    background-size: 850px;
+  }
+}
+@media (max-width: 1700px) {
+  body {
+    background-size: 800px;
+  }
+}
+@media (max-width: 1550px) {
+  body {
+    background-size: 750px;
+  }
+}
+@media (max-width: 1440px) {
+  body {
+    background-size: 700px;
+  }
+}
+@media (max-width: 1330px) {
+  body {
+    background-size: 650px;
+  }
+}
+@media (max-width: 1220px) {
+  body {
+    background-size: 600px;
+  }
+}
+@media (max-width: 1100px) {
+  body {
+    background-position-x: -100px;
+  }
+}
+@media (max-width: 1150px) {
+  .container {
+    width: 950px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 850px;
+  }
+  .sobre-web-design figcaption img {
+    width: 600px;
+  }
+}
+@media (max-width: 915px) {
+  body {
+    background-position: left top;
+    background-color: #b1f4ff;
+  }
+  .container {
+    width: 600px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  header nav {
+    margin: 30px 0;
+  }
+  .sobre-web-design article {
+    width: 100%;
+    justify-content: center;
+  }
+  .sobre-web-design figcaption img {
+    width: 100%;
+    margin: 30px;
+  }
+  footer .row {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (max-width: 665px) {
+  .container {
+    width: 400px;
+  }
+  .sobre-web-design figcaption {
+    width: 100%;
+    margin: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    width: 290px;
+  }
+  header nav ul li {
+    margin: 10px 0;
+  }
+  header nav {
+    background: white;
+    width: 100%;
+    padding: 10px 0 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  header nav ul {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.min.css.map */
